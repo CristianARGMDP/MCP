@@ -1,4 +1,4 @@
-[09Dec2024 00:15:47.575] [main/INFO] [Arclight/]: 
+[09Dec2024 00:20:19.151] [main/INFO] [Arclight/]: 
 
        ___           ___     __   /\
       /   | ________/ (_)__ / /  / /
@@ -10,92 +10,92 @@
     运行版本 顿顽 / arclight-1.20.1-1.0.5-1a8925b
     构建日期 2024-02-28 14:51:40
 
-[09Dec2024 00:15:47.646] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, arclightserver, --fml.forgeVersion, 47.2.20, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[09Dec2024 00:15:47.649] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
-[09Dec2024 00:15:47.684] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [fmlclientdev,forgeclient,arclightserver,minecraft,forgegametestserverdev,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness,forgegametestserveruserdev]
-[09Dec2024 00:15:47.695] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
-[09Dec2024 00:15:47.714] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,arclight_implementer,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,capability_token_subclass,accesstransformer,runtimedistcleaner]
-[09Dec2024 00:15:47.731] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
-[09Dec2024 00:15:47.738] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /workspaces/MCP/servidor_minecraft
-[09Dec2024 00:15:47.738] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is /workspaces/MCP/servidor_minecraft/mods
-[09Dec2024 00:15:47.738] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /workspaces/MCP/servidor_minecraft/config
-[09Dec2024 00:15:47.739] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /workspaces/MCP/servidor_minecraft/config/fml.toml
-[09Dec2024 00:15:49.310] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: [/workspaces/MCP/servidor_minecraft/mods/Connector-1.0.0-beta.46+1.20.1.jar][/workspaces/MCP/servidor_minecraft/mods/Connector-1.0.0-beta.46+1.20.1.jar][/workspaces/MCP/servidor_minecraft/mods/Connector-1.0.0-beta.46+1.20.1.jar]
-[09Dec2024 00:15:49.347] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is arclightserver
-[09Dec2024 00:15:49.353] [main/INFO] [mixin-transmog/]: Mixin Transmogrifier is definitely up to no good...
-[09Dec2024 00:15:49.387] [main/DEBUG] [mixin-transmog/]: Replaced the mixin launch plugin
-[09Dec2024 00:15:49.387] [main/INFO] [mixin-transmog/]: crimes against java were committed
-[09Dec2024 00:15:49.392] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml,mixin-transmogrifier,connector_loader]
-[09Dec2024 00:15:49.392] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
-[09Dec2024 00:15:49.393] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
-[09Dec2024 00:15:49.393] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
-[09Dec2024 00:15:49.393] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
-[09Dec2024 00:15:49.394] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 1.0
-[09Dec2024 00:15:49.394] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 1.0 loading
-[09Dec2024 00:15:49.395] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 10.0.9+10.0.9+main.dcd20f30
-[09Dec2024 00:15:49.395] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 8.0.4+66+master.c09db6d7
-[09Dec2024 00:15:49.395] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 6.0.5+6.0.5+master.eb8e549b
-[09Dec2024 00:15:49.397] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
-[09Dec2024 00:15:49.398] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 5.0.1+15+master.dc5a2922
-[09Dec2024 00:15:49.398] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 7.0.1+7.0.1+master.d2b38bf6
-[09Dec2024 00:15:49.398] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 5
-[09Dec2024 00:15:49.399] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
-[09Dec2024 00:15:49.400] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin-transmogrifier
-[09Dec2024 00:15:49.400] [main/DEBUG] [mixin-transmog/]: onLoad called
-[09Dec2024 00:15:49.400] [main/DEBUG] [mixin-transmog/]: mixin, fml, mixin-transmogrifier, connector_loader
-[09Dec2024 00:15:49.401] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
-[09Dec2024 00:15:49.402] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
-[09Dec2024 00:15:49.402] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin-transmogrifier
-[09Dec2024 00:15:49.402] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service connector_loader
-[09Dec2024 00:15:49.404] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service connector_loader
-[09Dec2024 00:15:49.405] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
-[09Dec2024 00:15:49.418] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
-[09Dec2024 00:15:49.421] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
-[09Dec2024 00:15:49.421] [main/INFO] [mixin-transmog/]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
-[09Dec2024 00:15:49.422] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
-[09Dec2024 00:15:49.422] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
-[09Dec2024 00:15:49.422] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
-[09Dec2024 00:15:49.422] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /workspaces/MCP/servidor_minecraft
-[09Dec2024 00:15:49.422] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is /workspaces/MCP/servidor_minecraft/mods
-[09Dec2024 00:15:49.423] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /workspaces/MCP/servidor_minecraft/config
-[09Dec2024 00:15:49.423] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /workspaces/MCP/servidor_minecraft/config/fml.toml
-[09Dec2024 00:15:49.423] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
-[09Dec2024 00:15:49.426] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
-[09Dec2024 00:15:49.428] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
-[09Dec2024 00:15:49.429] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using arclightserver as launch service
-[09Dec2024 00:15:49.475] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : VersionInfo[forgeVersion=47.2.20, mcVersion=1.20.1, mcpVersion=20230612.114412, forgeGroup=net.minecraftforge]
-[09Dec2024 00:15:49.476] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
-[09Dec2024 00:15:49.476] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin-transmogrifier
-[09Dec2024 00:15:49.476] [main/DEBUG] [mixin-transmog/]: initialize called
-[09Dec2024 00:15:49.496] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@5223e5ee
-[09Dec2024 00:15:49.522] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MCP/servidor_minecraft/mods/Connector-1.0.0-beta.46+1.20.1.jar%23222%23225!/ Service=ModLauncher Env=SERVER
-[09Dec2024 00:15:49.525] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
-[09Dec2024 00:15:49.526] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
-[09Dec2024 00:15:49.526] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
-[09Dec2024 00:15:49.527] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
-[09Dec2024 00:15:49.527] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
-[09Dec2024 00:15:49.527] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
-[09Dec2024 00:15:49.528] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin-transmogrifier
-[09Dec2024 00:15:49.528] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service connector_loader
-[09Dec2024 00:15:49.536] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service connector_loader
-[09Dec2024 00:15:49.536] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'srg'
-[09Dec2024 00:15:49.537] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {}
-[09Dec2024 00:15:49.537] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
-[09Dec2024 00:15:49.543] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
-[09Dec2024 00:15:49.543] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
-[09Dec2024 00:15:49.543] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
-[09Dec2024 00:15:49.544] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
-[09Dec2024 00:15:49.609] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MCP/servidor_minecraft/.arclight/mod_file/arclight-1.20.1-1.0.5-1a8925b.jar
-[09Dec2024 00:15:49.652] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file arclight-1.20.1-1.0.5-1a8925b.jar with {arclight} mods - versions {1.20.1-1.0.5-1a8925b}
-[09Dec2024 00:15:49.655] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
-[09Dec2024 00:15:49.664] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (connector_early_locator:1.0.0-beta.46+1.20.1),(mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null),(userdev classpath:null),(arclight:arclight-1.20.1-1.0.5-1a8925b)
-[09Dec2024 00:15:49.665] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Dependency Locators : (connector_locator:1.0.0-beta.46+1.20.1),(JarInJar:null)
-[09Dec2024 00:15:49.682] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate 
-[09Dec2024 00:15:49.689] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Connector-1.0.0-beta.46+1.20.1-mod.jar with {connectormod} mods - versions {1.0.0-beta.46+1.20.1}
-[09Dec2024 00:15:49.698] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MCP/servidor_minecraft/mods/[1.20.1] SecurityCraft v1.9.10.jar
-[09Dec2024 00:15:49.701] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file [1.20.1] SecurityCraft v1.9.10.jar with {securitycraft} mods - versions {1.9.10}
-[09Dec2024 00:15:49.702] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MCP/servidor_minecraft/mods/AmbientEnvironment-forge-1.20.1-11.0.0.1.jar
-[09Dec2024 00:15:49.703] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file AmbientEnvironment-forge-1.20.1-11.0.0.1.jar with {ambientenvironment} mods - versions {11.0.0.1}
-[09Dec2024 00:15:49.727] [JLine Shutdown Hook/DEBUG] [org.jline/]: Running all shutdown-hook tasks
-[09Dec2024 00:15:49.728] [JLine Shutdown Hook/DEBUG] [org.jline/]: Running task: org.jline.terminal.impl.PosixSysTerminal$$Lambda$328/0x00007b13f01a9478@52eb2203
-[09Dec2024 00:15:49.728] [JLine Shutdown Hook/DEBUG] [org.jline/]: Removing shutdown-hook: Thread[JLine Shutdown Hook,5,main]
+[09Dec2024 00:20:19.209] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, arclightserver, --fml.forgeVersion, 47.2.20, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[09Dec2024 00:20:19.212] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
+[09Dec2024 00:20:19.250] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [fmlclientdev,forgeclient,arclightserver,minecraft,forgegametestserverdev,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness,forgegametestserveruserdev]
+[09Dec2024 00:20:19.263] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
+[09Dec2024 00:20:19.277] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,arclight_implementer,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,capability_token_subclass,accesstransformer,runtimedistcleaner]
+[09Dec2024 00:20:19.291] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[09Dec2024 00:20:19.296] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /workspaces/MCP/servidor_minecraft
+[09Dec2024 00:20:19.297] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is /workspaces/MCP/servidor_minecraft/mods
+[09Dec2024 00:20:19.297] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /workspaces/MCP/servidor_minecraft/config
+[09Dec2024 00:20:19.298] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /workspaces/MCP/servidor_minecraft/config/fml.toml
+[09Dec2024 00:20:19.977] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: [/workspaces/MCP/servidor_minecraft/mods/Connector-1.0.0-beta.46+1.20.1.jar][/workspaces/MCP/servidor_minecraft/mods/Connector-1.0.0-beta.46+1.20.1.jar][/workspaces/MCP/servidor_minecraft/mods/Connector-1.0.0-beta.46+1.20.1.jar]
+[09Dec2024 00:20:20.022] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is arclightserver
+[09Dec2024 00:20:20.031] [main/INFO] [mixin-transmog/]: Mixin Transmogrifier is definitely up to no good...
+[09Dec2024 00:20:20.089] [main/DEBUG] [mixin-transmog/]: Replaced the mixin launch plugin
+[09Dec2024 00:20:20.094] [main/INFO] [mixin-transmog/]: crimes against java were committed
+[09Dec2024 00:20:20.098] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml,mixin-transmogrifier,connector_loader]
+[09Dec2024 00:20:20.098] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[09Dec2024 00:20:20.099] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[09Dec2024 00:20:20.101] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[09Dec2024 00:20:20.102] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[09Dec2024 00:20:20.107] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 1.0
+[09Dec2024 00:20:20.107] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 1.0 loading
+[09Dec2024 00:20:20.114] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 10.0.9+10.0.9+main.dcd20f30
+[09Dec2024 00:20:20.115] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 8.0.4+66+master.c09db6d7
+[09Dec2024 00:20:20.115] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 6.0.5+6.0.5+master.eb8e549b
+[09Dec2024 00:20:20.116] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[09Dec2024 00:20:20.127] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 5.0.1+15+master.dc5a2922
+[09Dec2024 00:20:20.128] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 7.0.1+7.0.1+master.d2b38bf6
+[09Dec2024 00:20:20.128] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 5
+[09Dec2024 00:20:20.128] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[09Dec2024 00:20:20.128] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin-transmogrifier
+[09Dec2024 00:20:20.128] [main/DEBUG] [mixin-transmog/]: onLoad called
+[09Dec2024 00:20:20.128] [main/DEBUG] [mixin-transmog/]: mixin, fml, mixin-transmogrifier, connector_loader
+[09Dec2024 00:20:20.128] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[09Dec2024 00:20:20.129] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[09Dec2024 00:20:20.129] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin-transmogrifier
+[09Dec2024 00:20:20.129] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service connector_loader
+[09Dec2024 00:20:20.130] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service connector_loader
+[09Dec2024 00:20:20.132] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[09Dec2024 00:20:20.143] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[09Dec2024 00:20:20.147] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[09Dec2024 00:20:20.147] [main/INFO] [mixin-transmog/]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
+[09Dec2024 00:20:20.147] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[09Dec2024 00:20:20.147] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[09Dec2024 00:20:20.147] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[09Dec2024 00:20:20.148] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /workspaces/MCP/servidor_minecraft
+[09Dec2024 00:20:20.148] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is /workspaces/MCP/servidor_minecraft/mods
+[09Dec2024 00:20:20.148] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /workspaces/MCP/servidor_minecraft/config
+[09Dec2024 00:20:20.149] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /workspaces/MCP/servidor_minecraft/config/fml.toml
+[09Dec2024 00:20:20.149] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[09Dec2024 00:20:20.155] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
+[09Dec2024 00:20:20.157] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[09Dec2024 00:20:20.158] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using arclightserver as launch service
+[09Dec2024 00:20:20.233] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : VersionInfo[forgeVersion=47.2.20, mcVersion=1.20.1, mcpVersion=20230612.114412, forgeGroup=net.minecraftforge]
+[09Dec2024 00:20:20.238] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[09Dec2024 00:20:20.242] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin-transmogrifier
+[09Dec2024 00:20:20.243] [main/DEBUG] [mixin-transmog/]: initialize called
+[09Dec2024 00:20:20.277] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@5223e5ee
+[09Dec2024 00:20:20.307] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MCP/servidor_minecraft/mods/Connector-1.0.0-beta.46+1.20.1.jar%23222%23225!/ Service=ModLauncher Env=SERVER
+[09Dec2024 00:20:20.310] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[09Dec2024 00:20:20.311] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[09Dec2024 00:20:20.312] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[09Dec2024 00:20:20.313] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[09Dec2024 00:20:20.314] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[09Dec2024 00:20:20.317] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[09Dec2024 00:20:20.319] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin-transmogrifier
+[09Dec2024 00:20:20.319] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service connector_loader
+[09Dec2024 00:20:20.322] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service connector_loader
+[09Dec2024 00:20:20.323] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'srg'
+[09Dec2024 00:20:20.323] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {}
+[09Dec2024 00:20:20.324] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[09Dec2024 00:20:20.324] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[09Dec2024 00:20:20.325] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[09Dec2024 00:20:20.325] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[09Dec2024 00:20:20.326] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[09Dec2024 00:20:20.371] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MCP/servidor_minecraft/.arclight/mod_file/arclight-1.20.1-1.0.5-1a8925b.jar
+[09Dec2024 00:20:20.407] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file arclight-1.20.1-1.0.5-1a8925b.jar with {arclight} mods - versions {1.20.1-1.0.5-1a8925b}
+[09Dec2024 00:20:20.411] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[09Dec2024 00:20:20.420] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (connector_early_locator:1.0.0-beta.46+1.20.1),(mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null),(userdev classpath:null),(arclight:arclight-1.20.1-1.0.5-1a8925b)
+[09Dec2024 00:20:20.420] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Dependency Locators : (connector_locator:1.0.0-beta.46+1.20.1),(JarInJar:null)
+[09Dec2024 00:20:20.437] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate 
+[09Dec2024 00:20:20.443] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Connector-1.0.0-beta.46+1.20.1-mod.jar with {connectormod} mods - versions {1.0.0-beta.46+1.20.1}
+[09Dec2024 00:20:20.453] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MCP/servidor_minecraft/mods/[1.20.1] SecurityCraft v1.9.10.jar
+[09Dec2024 00:20:20.455] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file [1.20.1] SecurityCraft v1.9.10.jar with {securitycraft} mods - versions {1.9.10}
+[09Dec2024 00:20:20.456] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MCP/servidor_minecraft/mods/AmbientEnvironment-forge-1.20.1-11.0.0.1.jar
+[09Dec2024 00:20:20.457] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file AmbientEnvironment-forge-1.20.1-11.0.0.1.jar with {ambientenvironment} mods - versions {11.0.0.1}
+[09Dec2024 00:20:20.472] [JLine Shutdown Hook/DEBUG] [org.jline/]: Running all shutdown-hook tasks
+[09Dec2024 00:20:20.473] [JLine Shutdown Hook/DEBUG] [org.jline/]: Running task: org.jline.terminal.impl.PosixSysTerminal$$Lambda$328/0x00007bd0541a9478@46cfed30
+[09Dec2024 00:20:20.473] [JLine Shutdown Hook/DEBUG] [org.jline/]: Removing shutdown-hook: Thread[JLine Shutdown Hook,5,main]

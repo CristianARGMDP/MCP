@@ -1,4 +1,4 @@
-[09Dec2024 00:15:47.575] [main/INFO] [Arclight/]: 
+[09Dec2024 00:20:19.151] [main/INFO] [Arclight/]: 
 
        ___           ___     __   /\
       /   | ________/ (_)__ / /  / /
@@ -10,10 +10,10 @@
     运行版本 顿顽 / arclight-1.20.1-1.0.5-1a8925b
     构建日期 2024-02-28 14:51:40
 
-[09Dec2024 00:15:47.646] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, arclightserver, --fml.forgeVersion, 47.2.20, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[09Dec2024 00:15:47.649] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
-[09Dec2024 00:15:49.347] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is arclightserver
-[09Dec2024 00:15:49.353] [main/INFO] [mixin-transmog/]: Mixin Transmogrifier is definitely up to no good...
-[09Dec2024 00:15:49.387] [main/INFO] [mixin-transmog/]: crimes against java were committed
-[09Dec2024 00:15:49.421] [main/INFO] [mixin-transmog/]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
-[09Dec2024 00:15:49.522] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MCP/servidor_minecraft/mods/Connector-1.0.0-beta.46+1.20.1.jar%23222%23225!/ Service=ModLauncher Env=SERVER
+[09Dec2024 00:20:19.209] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, arclightserver, --fml.forgeVersion, 47.2.20, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[09Dec2024 00:20:19.212] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
+[09Dec2024 00:20:20.022] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is arclightserver
+[09Dec2024 00:20:20.031] [main/INFO] [mixin-transmog/]: Mixin Transmogrifier is definitely up to no good...
+[09Dec2024 00:20:20.094] [main/INFO] [mixin-transmog/]: crimes against java were committed
+[09Dec2024 00:20:20.147] [main/INFO] [mixin-transmog/]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
+[09Dec2024 00:20:20.307] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MCP/servidor_minecraft/mods/Connector-1.0.0-beta.46+1.20.1.jar%23222%23225!/ Service=ModLauncher Env=SERVER
